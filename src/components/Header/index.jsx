@@ -5,7 +5,8 @@ import { Container, MiniProfile } from "./styles";
 export function Header() {
     return (
         <Container>
-        <h1>RocketMovies</h1>
+            
+            <Link className="logo" to="/"><h1>RocketMovies</h1></Link>
 
         <Input
         placeholder="Pesquisar pelo titulo"
@@ -13,11 +14,11 @@ export function Header() {
 
         <MiniProfile>
             <div>
-                <Link className="Name" to="/profile">Rodrigo Gonçalves</Link>
+                <Link className="Name" to="/profile">Luan Miranda</Link>
                 <Link className="Exit" href="/">Sair</Link>
             </div>
 
-            <img src="https://github.com/LMiranda10.png" alt="Foto de perfil" />
+            <Link className="profile-img" to="/profile"><img src="https://github.com/LMiranda10.png" alt="Foto de perfil" /></Link>
         </MiniProfile>
     </Container>
     )
