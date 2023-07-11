@@ -11,12 +11,10 @@ export const Container = styled.textarea`
     resize: none;
 
     margin-top: 8px;
-    margin-bottom: 40px;
     border-radius: 10px;
-    padding: 12px;
+    padding: 24px;
 
     &::placeholder {
         color: ${({theme})=> theme.COLORS.GRAY_300};
-        padding: 12px;
     }
 `

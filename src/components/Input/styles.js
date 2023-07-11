@@ -7,8 +7,7 @@ export const Container = styled.div`
     background-color: ${({theme})=>theme.COLORS.BACKGROUND_800};
     color: ${({theme})=>theme.COLORS.GRAY_300};
 
-    padding: 12px;
-    /* margin-bottom: 8px; */
+
 
     border-radius: 10px;
 
@@ -26,6 +25,7 @@ export const Container = styled.div`
         font-family: 'Roboto Slab', serif;
 
         padding: 16px;
+        width: 100%;
     }
 
     >svg {

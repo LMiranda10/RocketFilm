@@ -35,7 +35,7 @@ export const Container = styled.div`
             color: ${({theme})=>theme.COLORS.WHITE};
             margin: 25px 0 40px;
 
-            text-align: left;
+            text-align: left;      
         }
 
         > h3 {

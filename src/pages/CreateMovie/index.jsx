@@ -41,19 +41,18 @@ export function CreateMovie() {
 
                 />
 
-                <h3>Marcadores</h3>
 
-                <div className="markers">
+                <Section title={"Marcadores"}>
                     <Marker placeholder="React"/>
                     <Marker placeholder="Novo Marcador" isNew/>
-                </div>
+                </Section>
 
-                <div className="buttons">
-                    <Button title="Excluir filme"/>
+                <Section>
+                    <Button title="Salvar alterações"/>
                     <BlackBtn>
-                        Salvar alterações
+                        Excluir filme
                     </BlackBtn>
-                </div>
+                </Section>
             </main>
         </Container>
     )

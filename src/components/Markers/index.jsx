@@ -16,7 +16,7 @@ export function Marker({isNew,value,onClick, ...rest}) {
             type="button"
             className={ isNew? 'button-add' : 'button-delete' }
             >
-                {isNew ? <FiPlus/> : <FiX/>}
+                {isNew ? <FiX/> : <FiPlus/>}
             </button>
         </Container>
     )

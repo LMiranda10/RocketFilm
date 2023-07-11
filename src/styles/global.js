@@ -18,11 +18,11 @@ export default createGlobalStyle`
         font-family: 'Roboto Slab', serif;
         font-size: 16px;
         outline: none;
+        
     }
 
     a {
         text-decoration: none;
-        /* color: ${({theme})=>theme.COLORS.PINK}; */
     }
 
     h1 {

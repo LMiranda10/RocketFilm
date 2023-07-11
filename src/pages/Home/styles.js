@@ -60,6 +60,12 @@ export const Card = styled.div`
         font-size: 24px;
     }
 
+    h3 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #F4EDE8;
+    }
+
     p {
         font-size: 16px;
     }

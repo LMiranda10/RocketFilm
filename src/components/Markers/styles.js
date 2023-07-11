@@ -11,11 +11,12 @@ export const Container = styled.div`
 
     margin-top: 8px;
     border-radius: 10px;
-    padding:12px;
+    /* padding:12px; */
 
     > button {
         border:none;
         background: none;
+        margin-right:12px;
     }
 
     .button-delete {
@@ -27,10 +28,10 @@ export const Container = styled.div`
     }
 
     > input {
-        height:36px;
+        height:100%;
         width: 100%;
 
-        padding:12px;
+        padding:24px;
 
         color: ${({theme})=>theme.COLORS.WHITE};
         background: transparent;

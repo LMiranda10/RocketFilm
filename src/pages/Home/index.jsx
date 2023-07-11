@@ -26,62 +26,62 @@ export function Home() {
                 </AddMovie>
             </div>
 
-            <Card>
-                <Link to="/preview">
+            <Link to="/preview">
+                <Card>
                     <h3>Interestelar</h3>
-                </Link>
 
-                <div className="stars">
-                    <RiStarFill/>
-                    <RiStarFill/>
-                    <RiStarFill/>
-                    <RiStarFill/>
-                    <FiStar/>
-                    
-                </div>
+                    <div className="stars">
+                        <RiStarFill/>
+                        <RiStarFill/>
+                        <RiStarFill/>
+                        <RiStarFill/>
+                        <FiStar/>
+                        
+                    </div>
 
-                <p>Pragas nas colheitas fizeram a civilização humana regredir para uma sociedade agrária em futuro de data desconhecida. Cooper, ex-piloto da NASA, tem uma fazenda com sua família. Murphy, a filha de dez anos de Cooper, acredita que seu quarto está assombrado por um fantasma que tenta se...</p>
+                    <p>Pragas nas colheitas fizeram a civilização humana regredir para uma sociedade agrária em futuro de data desconhecida. Cooper, ex-piloto da NASA, tem uma fazenda com sua família. Murphy, a filha de dez anos de Cooper, acredita que seu quarto está assombrado por um fantasma que tenta se...</p>
 
-                <Generos/>
-            </Card>
+                    <Generos/>
+                </Card>
+            </Link>
 
-            <Card>
-                <Link to="/preview">
-                    <h3>Interestelar</h3>
-                </Link>
+            <Link to="/preview">
+                <Card>
+                        <h3>Interestelar</h3>
 
-                <div className="stars">
-                    <RiStarFill/>
-                    <RiStarFill/>
-                    <RiStarFill/>
-                    <RiStarFill/>
-                    <FiStar/>
-                    
-                </div>
+                    <div className="stars">
+                        <RiStarFill/>
+                        <RiStarFill/>
+                        <RiStarFill/>
+                        <RiStarFill/>
+                        <FiStar/>
+                        
+                    </div>
 
-                <p>Pragas nas colheitas fizeram a civilização humana regredir para uma sociedade agrária em futuro de data desconhecida. Cooper, ex-piloto da NASA, tem uma fazenda com sua família. Murphy, a filha de dez anos de Cooper, acredita que seu quarto está assombrado por um fantasma que tenta se...</p>
+                    <p>Pragas nas colheitas fizeram a civilização humana regredir para uma sociedade agrária em futuro de data desconhecida. Cooper, ex-piloto da NASA, tem uma fazenda com sua família. Murphy, a filha de dez anos de Cooper, acredita que seu quarto está assombrado por um fantasma que tenta se...</p>
 
-                <Generos/>
-            </Card>
+                    <Generos/>
+                </Card>
+            </Link>
 
-            <Card>
-                <Link to="/preview">
-                    <h3>Interestelar</h3>
-                </Link>
+            <Link to="/preview">
+                <Card>
+                        <h3>Interestelar</h3>
 
-                <div className="stars">
-                    <RiStarFill/>
-                    <RiStarFill/>
-                    <RiStarFill/>
-                    <RiStarFill/>
-                    <FiStar/>
-                    
-                </div>
+                    <div className="stars">
+                        <RiStarFill/>
+                        <RiStarFill/>
+                        <RiStarFill/>
+                        <RiStarFill/>
+                        <FiStar/>
+                        
+                    </div>
 
-                <p>Pragas nas colheitas fizeram a civilização humana regredir para uma sociedade agrária em futuro de data desconhecida. Cooper, ex-piloto da NASA, tem uma fazenda com sua família. Murphy, a filha de dez anos de Cooper, acredita que seu quarto está assombrado por um fantasma que tenta se...</p>
+                    <p>Pragas nas colheitas fizeram a civilização humana regredir para uma sociedade agrária em futuro de data desconhecida. Cooper, ex-piloto da NASA, tem uma fazenda com sua família. Murphy, a filha de dez anos de Cooper, acredita que seu quarto está assombrado por um fantasma que tenta se...</p>
 
-                <Generos/>
-            </Card>
+                    <Generos/>
+                </Card>
+            </Link>
 
             </main>
          </Container>
